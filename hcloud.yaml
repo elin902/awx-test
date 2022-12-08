@@ -1,0 +1,10 @@
+plugin: hcloud
+token: {{ hcloud_token }}
+
+locations:
+  - nbg1
+status:
+  - running
+
+groups:
+  self-service: "'self_service' in labels.type"
