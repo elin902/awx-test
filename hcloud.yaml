@@ -1,5 +1,5 @@
 plugin: hcloud
-token: {{ hcloud_token }}
+token: "{{ hcloud_token }}"
 
 locations:
   - nbg1
