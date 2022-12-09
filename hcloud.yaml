@@ -1,5 +1,5 @@
 plugin: hcloud
-token: '{{ lookup("env", "hcloud_token") }}'
+token: "{{ hcloud_token }}"
 
 locations:
   - nbg1
