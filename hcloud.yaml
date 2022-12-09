@@ -8,3 +8,4 @@ status:
 
 groups:
   self-service: "'self_service' in labels.type"
+  
