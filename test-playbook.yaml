@@ -1,5 +1,5 @@
 - name: Ping dynamic inventory
-  hosts: self-service
+  hosts: all
 
   tasks:
     - name: ping dynamic inventory
