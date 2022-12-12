@@ -4,3 +4,5 @@
   tasks:
     - name: ping dynamic inventory
       ping:
+    - name: var test
+      command: echo {{ hcloud_token }}
