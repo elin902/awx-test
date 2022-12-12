@@ -1,5 +1,7 @@
 plugin: hcloud
 
+token: HCLOUD_TOKEN
+
 locations:
   - nbg1
 status:
