@@ -1,9 +1,6 @@
 - name: Ping dynamic inventory
-  hosts: all
+  hosts: self-service
 
   tasks:
     - name: ping dynamic inventory
       ping:
-    - name: var test
-      debug: 
-        msg: echo {{ hcloud_token }}
