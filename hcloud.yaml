@@ -1,5 +1,4 @@
 plugin: hcloud
-token_env: HCLOUD_TOKEN
 
 locations:
   - nbg1
