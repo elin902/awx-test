@@ -1,6 +1,6 @@
 plugin: hcloud
 
-token: "{{ HCLOUD_TOKEN }}"
+token_env:
 
 locations:
   - nbg1
