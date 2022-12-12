@@ -5,4 +5,5 @@
     - name: ping dynamic inventory
       ping:
     - name: var test
-      command: echo {{ hcloud_token }}
+      debug: 
+        msg: echo {{ hcloud_token }}
